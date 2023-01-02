@@ -1,0 +1,40 @@
+{
+  "name": "p2-cms-integration-server",
+  "version": "1.0.0",
+  "description": "CMS Integration - Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --forceExit --testTimeout=1000 --verbose",
+    "dev": "NODE_ENV=development npx nodemon app.js",
+    "start": "node app.js",
+    "db:d": "sequelize db:migrate:undo:all && sequelize db:migrate && sequelize db:seed:all",
+    "db:t": "sequelize db:migrate:undo:all --env test && sequelize db:migrate --env test && sequelize db:seed:all --env test",
+    "db:p": "sequelize db:migrate:undo:all --env production && sequelize db:migrate --env production && sequelize db:seed:all --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hck-50-xenia-fox/p2-cms-integration-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hck-50-xenia-fox/p2-cms-integration-server/issues"
+  },
+  "homepage": "https://github.com/hck-50-xenia-fox/p2-cms-integration-server#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "google-auth-library": "^8.5.1",
+    "jest": "^29.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "sequelize": "^6.23.0",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "pg": "^8.8.0"
+  }
+}

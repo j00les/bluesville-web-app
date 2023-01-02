@@ -1,0 +1,38 @@
+[
+  {
+    "UserId": 1,
+    "ProductId": 1,
+    "createdAt": "2022-09-28T05:53:58.280Z",
+    "updatedAt": "2022-09-28T05:53:58.280Z"
+  },
+  {
+    "UserId": 1,
+    "ProductId": 2,
+    "createdAt": "2022-09-28T05:53:58.280Z",
+    "updatedAt": "2022-09-28T05:53:58.280Z"
+  },
+  {
+    "UserId": 3,
+    "ProductId": 3,
+    "createdAt": "2022-09-28T05:53:58.281Z",
+    "updatedAt": "2022-09-28T05:53:58.281Z"
+  },
+  {
+    "UserId": 4,
+    "ProductId": 4,
+    "createdAt": "2022-09-28T05:53:58.281Z",
+    "updatedAt": "2022-09-28T05:53:58.281Z"
+  },
+  {
+    "UserId": 4,
+    "ProductId": 5,
+    "createdAt": "2022-09-28T05:53:58.281Z",
+    "updatedAt": "2022-09-28T05:53:58.281Z"
+  },
+  {
+    "UserId": 4,
+    "ProductId": 6,
+    "createdAt": "2022-09-28T05:53:58.281Z",
+    "updatedAt": "2022-09-28T05:53:58.281Z"
+  }
+]

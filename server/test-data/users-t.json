@@ -1,0 +1,35 @@
+[
+  {
+    "username": "admin",
+    "email": "admin@mail.com",
+    "password": "admin123",
+    "role": "Admin",
+    "phoneNumber": "8987654",
+    "address": "Jalan merdeka timur"
+  },
+  {
+    "username": "user",
+    "email": "user@mail.com",
+    "password": "user123",
+    "role": "Staff",
+    "phoneNumber": "8987654",
+    "address": "Jalan merdeka timur"
+  },
+
+  {
+    "username": "cust",
+    "email": "cust@mail.com",
+    "password": "cust123",
+    "role": "Customer",
+    "phoneNumber": "8987654",
+    "address": "Jalan merdeka timur"
+  },
+  {
+    "username": "cust",
+    "email": "cust1@mail.com",
+    "password": "cust123",
+    "role": "Customer",
+    "phoneNumber": "8987654",
+    "address": "Jalan merdeka timur"
+  }
+]

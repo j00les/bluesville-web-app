@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Lined Indigo Herringbone Sakara",
+    "description": "This classic sakara is made from cotton fabrics that we dip dyed into our natural indigo vat for around 3-4 days to achieve the deep indigo color that we are known for.",
+    "price": 500000,
+    "stock": 3,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/06/Indigo-Herringbone-Sakara-1-897x1346.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/06/Indigo-Herringbone-Sakara-1-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Dobby Bandcollar Long LS Shirt",
+    "description": "Inspired by middle-eastern style garb, we made a long sleeve shirt with a longer length, almost covering the knee.",
+    "price": 600000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/04/White-Dobby-Long-Shirt-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/04/White-Dobby-Long-Shirt-1-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Dobby Patchwork Panel LS Shirt",
+    "description": "This is an all-white patchwork shirt that we occasionally made from leftover fabrics in the workshop, ultimately leading to less impact and less waste.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/04/White-Dobby-Panel-LS-Shirt-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/04/White-Dobby-Long-Shirt-1-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Indigo Batik Brushed Plan.t.s Dyers Sleeve Shirt",
+    "description": "PLAN.t.s. is our new line of collections consisting of all-natural material, colored with plant-based material.",
+    "price": 600000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/06/Indigo-Brushed-Dyers-Sleeve-Shirt-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/06/Indigo-Brushed-Dyers-Sleeve-Shirt-1-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Navy Stripe Cardigan Shirt",
+    "description": "We try to mimic the ease of use of a cardigan and rendered it in a more structured way, resulting in a crossover of a shirt and cardigan.",
+    "price": 700000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/04/Navy-Stripe-Cardigan-Shirt-1-433x514.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/04/Navy-Stripe-Cardigan-Shirt-2-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Olive Camp Collar Shirt",
+    "description": "Our rendition of a utility camp shirt, featuring camp collar style and utility pocket on the chest and additional pockets on the bottom.",
+    "price": 800000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/04/Olive-Camp-Shirt-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/04/Olive-Camp-Shirt-1-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Natural Indigo Bandcollar Shirt",
+    "description": "The shirt is then dip dyed into a dark natural indigo vat to create dark shade of indigo blue color.",
+    "price": 900000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2018/12/Natural_Indigo_Bandcollar_Shirt_1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2018/12/Natural_Indigo_Bandcollar_Shirt_1-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Crazy Wave Indigo Leisure Shirt",
+    "description": "Our signature Leisure Shirt is being made from 5 different fabric panels, ranging from different indigo batik pattern to plain indigo dyed fabrics.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2018/10/Indigo_Wave_Crazy_Panel_Leisure_Shirt-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2018/10/Indigo_Wave_Crazy_Panel_Leisure_Shirt-1-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Indigo Batik Ombak BD Shirt",
+    "description": "Exclusive Made-to-Order garment. Bluesville’s signature Indigo dyed button down shirt with handwritten “Ombak” Batik. Part of SS16 collection.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2018/10/Indigo_Batik_Ombak_LS_Shirt_1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2018/10/Indigo_Batik_Ombak_LS_Shirt_1-433x514.jpg",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "name": "Bluesville x Tenjin Black T-shirt",
+    "description": "The graphic is made with a high-density oil-based hand screen printing technique to achieve detailed graphic looks on the shirt yet retain its smooth texture.",
+    "price": 250000,
+    "stock": 4,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/04/Tenjin-Black-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/04/Tenjin-Navy-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Terra Firma Black T-shirt",
+    "description": "Special Edition release of our organic t-shirt commemorating NJAJAN event held in Breakfast Club Tokyo on August 28th. Graphics are done by renown Indonesian artist, Dwiky KA, printed in our signature organic slub t-shirt.",
+    "price": 250000,
+    "stock": 10,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2021/12/Terra-Firma-Logo-Black-Tees-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/12/Terra-Firma-Logo-Black-Tees-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Caffeine Life Black T-shirt",
+    "description": "For this t-shirt iteration, we are cooperating with a reputable t-shirt company to make our signature 220 gsm weight t-shirt fabric from 100% cotton yarn to achieve a medium-to-heavy weight fabric.",
+    "price": 250000,
+    "stock": 9,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2021/12/CaTfein-Life-Black-Tees-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/12/CaTfein-Life-Black-Tees-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Shroom Zone Outline Black T-shirt",
+    "description": "For this t-shirt iteration, we are cooperating with a reputable t-shirt company to make our signature 220 gsm weight t-shirt fabric from 100% cotton yarn to achieve a medium-to-heavy weight fabric.",
+    "price": 250000,
+    "stock": 9,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2021/12/Shroom-Zone-Black-Tees-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/12/Shroom-Zone-Black-Tees-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Shroom Zone Outline Navy T-shirt",
+    "description": "For this t-shirt iteration, we are cooperating with a reputable t-shirt company to make our signature 220 gsm weight t-shirt fabric from 100% cotton yarn to achieve a medium-to-heavy weight fabric.",
+    "price": 250000,
+    "stock": 9,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2021/12/Shroom-Zone-Navy-Tees-1-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/12/rev-shroom-zone-1-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Shroom Zone Fill Navy T-shirt",
+    "description": "For this t-shirt iteration, we are cooperating with a reputable t-shirt company to make our signature 220 gsm weight t-shirt fabric from 100% cotton yarn to achieve a medium-to-heavy weight fabric.",
+    "price": 250000,
+    "stock": 9,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2021/12/rev-shroom-zone-1-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/12/rev-shroom-zone-1-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Desert Farmers White T-shirt",
+    "description": "This T-shirt design is a collaboration effort between Bluesville and rising artist aldinism  who is known for his unprecedented creativity and imagination in creating a fictional world of Planet Amalgia.",
+    "price": 250000,
+    "stock": 9,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2021/12/Valley-White-Tees-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/12/Valley-White-Tees-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Home Cat Black T-shirt",
+    "description": "For this t-shirt iteration, we are cooperating with a reputable t-shirt company to make our signature 220 gsm weight t-shirt fabric from 100% cotton yarn to achieve a medium-to-heavy weight fabric.",
+    "price": 250000,
+    "stock": 9,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2021/12/Home-Black-Tees-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/12/Home-Black-Tees-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Specimen White T-shirt",
+    "description": "This T-shirt design is a collaboration effort between Bluesville and rising artist aldinism  who is known for his unprecedented creativity and imagination in creating a fictional world of Planet Amalgia. ",
+    "price": 250000,
+    "stock": 9,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2021/12/Terra-Firma-Inspired-White-tees-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/12/Terra-Firma-Inspired-White-tees-1-433x514.jpg",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "name": "Navy Easy Fatigue Slim Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. Made from poplin fabric for comfortable everyday wear yet still durable for long wear.",
+    "price": 300000,
+    "stock": 7,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/09/Navy-fatigue-1-1024x1536.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/09/Navy-fatigue-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Khaki Easy Fatigue Slim Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. Made from poplin fabric for comfortable everyday wear yet still durable for long wear.",
+    "price": 300000,
+    "stock": 10,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/09/Khaki-Fatigue-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/09/Khaki-Fatigue-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Olive Easy Fatigue Slim Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/09/Olive-Fatigue-Short-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/09/Olive-Fatigue-Short-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Black Easy Fatigue Slim Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/09/Black-Fatigue-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/09/Black-Fatigue-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Olive Tree Easy Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. The waist is adjustable through a combination of elastic band and adjuster webbing. ",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. The waist is adjustable through a combination of elastic band and adjuster webbing.",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2021/10/Olive-Camo-Short-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Olive Easy Wide Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. The waist is adjustable through a combination of elastic band and adjuster webbing.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/07/Olive-wide-Pants-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/07/Olive-wide-Pants-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Black Easy Wide Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. The waist is adjustable through a combination of elastic band and adjuster webbing.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/07/Black-wide-Pants-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/07/Black-wide-Pants-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Navy Easy Wide Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. The waist is adjustable through a combination of elastic band and adjuster webbing.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/07/Navy-wide-Pants-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/07/Navy-wide-Pants-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "name": "Khaki Easy Wide Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. The waist is adjustable through a combination of elastic band and adjuster webbing.",
+    "price": 1200000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/07/Khaki-wide-Pants-1.jpg",
+    "imgCard": "https://www.thebluesville.com/wp-content/uploads/2022/07/Khaki-wide-Pants-1-433x514.jpg",
+    "categoryId": 3,
+    "authorId": 1
+  }
+]

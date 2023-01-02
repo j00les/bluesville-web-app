@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Lineduw Indigo Herringbone Sakara",
+    "description": "This classic sakara is made from cotton fabrics that we dip dyed into our natural indigo vat for around 3-4 days to achieve the deep indigo color that we are known for.",
+    "price": 500000,
+    "stock": 3,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/06/Indigo-Herringbone-Sakara-1-897x1346.jpg",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "Dobby Bandcollar Long LS Shirt",
+    "description": "Inspired by middle-eastern style garb, we made a long sleeve shirt with a longer length, almost covering the knee.",
+    "price": 600000,
+    "stock": 2,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/04/White-Dobby-Long-Shirt-1.jpg",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "Bluesville x Tenjin Black T-shirt",
+    "description": "The graphic is made with a high-density oil-based hand screen printing technique to achieve detailed graphic looks on the shirt yet retain its smooth texture.",
+    "price": 250000,
+    "stock": 4,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/04/Tenjin-Black-1.jpg",
+    "categoryId": 2,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "NJAJAN White Slub Organic T-shirt",
+    "description": "Special Edition release of our organic t-shirt commemorating NJAJAN event held in Breakfast Club Tokyo on August 28th. Graphics are done by renown Indonesian artist, Dwiky KA, printed in our signature organic slub t-shirt.",
+    "price": 250000,
+    "stock": 10,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/09/NJAJAN-1-NEW.jpg",
+    "categoryId": 2,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "Navy Easy Fatigue Slim Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. Made from poplin fabric for comfortable everyday wear yet still durable for long wear.",
+    "price": 300000,
+    "stock": 7,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/09/Navy-fatigue-1-1024x1536.jpg",
+    "categoryId": 3,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "Khaki Easy Fatigue Slim Short",
+    "description": "Our rendition of casual everyday shorts, taking a cue from military sports pants designed with comfort and utility in mind. Made from poplin fabric for comfortable everyday wear yet still durable for long wear.",
+    "price": 300000,
+    "stock": 10,
+    "imgUrl": "https://www.thebluesville.com/wp-content/uploads/2022/09/Khaki-Fatigue-1.jpg",
+    "categoryId": 3,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+
+  {
+    "name": "cat-shirt",
+    "description": "category shirt",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+
+  {
+    "name": "cat-shirt",
+    "description": "category shirt",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "cat-shirt",
+    "description": "category shirt",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "cat-shirt",
+    "description": "category shirt",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 1,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+
+  {
+    "name": "cat-tees",
+    "description": "category tees",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 2,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+
+  {
+    "name": "cat-tees",
+    "description": "category tees",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 2,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+
+  {
+    "name": "cat-tees",
+    "description": "category tees",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 2,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "cat-tees",
+    "description": "category tees",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 2,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "cat-bottom",
+    "description": "category bottom",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 3,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+
+  {
+    "name": "cat-bottom",
+    "description": "category bottom",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 3,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "cat-bottom",
+    "description": "category bottom",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 3,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "cat-bottom",
+    "description": "category bottom",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 3,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+
+  {
+    "name": "cat-bottom",
+    "description": "category bottom",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 3,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  },
+  {
+    "name": "cat-bottom",
+    "description": "category bottom",
+    "price": 100000,
+    "stock": 3,
+    "imgUrl": "dummy img",
+    "categoryId": 3,
+    "authorId": 1,
+    "createdAt": "2022-09-28T02:04:14.805Z",
+    "updatedAt": "2022-09-28T02:04:14.805Z"
+  }
+]
