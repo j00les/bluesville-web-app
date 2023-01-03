@@ -1,4 +1,3 @@
-<script></script>
 <template>
   <footer class="p-10 footer bg-neutral text-neutral-content">
     <div>
