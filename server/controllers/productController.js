@@ -1,4 +1,4 @@
-const { History, Product, Category, User } = require('../models/');
+const { History, Product, Category, User } = require("../models/");
 
 class ProductController {
   static async createProduct(req, res, next) {
@@ -36,11 +36,11 @@ class ProductController {
         include: {
           model: User,
           attributes: {
-            exclude: ['createdAt', 'updatedAt', 'password'],
+            exclude: ["createdAt", "updatedAt", "password"],
           },
         },
         attributes: {
-          exclude: ['createdAt', 'updatedAt'],
+          exclude: ["createdAt", "updatedAt"],
         },
       });
 
@@ -58,7 +58,7 @@ class ProductController {
       const { username } = req.user;
       const findProd = await Product.findByPk(id);
 
-      if (!findProd) throw { name: 'Not Found' };
+      if (!findProd) throw { name: "Not Found" };
 
       const [...response] = await Product.update(
         {
@@ -86,7 +86,7 @@ class ProductController {
       });
 
       res.status(200).json({
-        message: 'Product updated successfully',
+        message: "Product updated successfully",
       });
     } catch (err) {
       next(err);
@@ -96,14 +96,15 @@ class ProductController {
   static async getProductById(req, res, next) {
     try {
       const { id } = req.params;
+      console.log(id, "yok mari");
       const response = await Product.findOne({
         where: { id },
         attributes: {
-          exclude: ['createdAt', 'updatedAt'],
+          exclude: ["createdAt", "updatedAt"],
         },
       });
 
-      if (!response) throw { name: 'Not Found' };
+      if (!response) throw { name: "Not Found" };
 
       res.status(200).json(response);
     } catch (err) {
@@ -126,7 +127,7 @@ class ProductController {
       const { id } = req.params;
 
       const response = await Category.findByPk(id);
-      if (!response) throw { name: 'Category Not Found' };
+      if (!response) throw { name: "Category Not Found" };
 
       res.status(200).json(response);
     } catch (err) {
@@ -141,7 +142,7 @@ class ProductController {
         name,
       });
 
-      res.status(201).json({ message: 'Category created successfully' });
+      res.status(201).json({ message: "Category created successfully" });
     } catch (err) {
       next(err);
     }
@@ -153,7 +154,7 @@ class ProductController {
       const { name } = req.body;
 
       const findCat = await Category.findByPk(id);
-      if (!findCat) throw { name: 'Category Not Found' };
+      if (!findCat) throw { name: "Category Not Found" };
 
       await Category.update(
         {
@@ -166,7 +167,7 @@ class ProductController {
         }
       );
 
-      res.status(201).json({ message: 'Category updated successfully' });
+      res.status(201).json({ message: "Category updated successfully" });
     } catch (err) {
       next(err);
     }
@@ -179,7 +180,7 @@ class ProductController {
         where: { id },
       });
 
-      if (!response) throw { name: 'Not Found' };
+      if (!response) throw { name: "Not Found" };
 
       res.status(200).json({
         message: `Product with ID ${id} deleted successfully`,
@@ -196,10 +197,10 @@ class ProductController {
         where: { id },
       });
 
-      if (!response) throw { name: 'Category Not Found' };
+      if (!response) throw { name: "Category Not Found" };
 
       res.status(200).json({
-        message: 'Category deleted successfully',
+        message: "Category deleted successfully",
       });
     } catch (err) {
       next(err);
@@ -238,8 +239,8 @@ class ProductController {
   static async getHistory(req, res, next) {
     try {
       const response = await History.findAll({
-        attributes: { exclude: ['updatedAt'] },
-        order: [['id', 'DESC']],
+        attributes: { exclude: ["updatedAt"] },
+        order: [["id", "DESC"]],
       });
 
       res.status(200).json(response);

@@ -1,9 +1,9 @@
 // const { default: axios } = require('axios');
-const { default: axios } = require('axios');
-const { OAuth2Client } = require('google-auth-library');
-const { Op } = require('sequelize');
-const { passCompare, tokenSign, pagingData } = require('../helpers/helpers');
-const { User, Product, Favorite } = require('../models');
+const { default: axios } = require("axios");
+const { OAuth2Client } = require("google-auth-library");
+const { Op } = require("sequelize");
+const { passCompare, tokenSign, pagingData } = require("../helpers/helpers");
+const { User, Product, Favorite } = require("../models");
 
 class PubController {
   static async getProduct(req, res, next) {
@@ -14,7 +14,9 @@ class PubController {
       if (filter || search || sort) {
         //---------FILTER
         if (filter) {
-          const query = filter.category.split(',').map(el => ({ [Op.eq]: el }));
+          const query = filter.category
+            .split(",")
+            .map((el) => ({ [Op.eq]: el }));
           option.where = {
             categoryId: { [Op.or]: query },
           };
@@ -23,9 +25,9 @@ class PubController {
         //------------SORT
         if (sort) {
           let query;
-          sort.charAt(0) !== '-'
-            ? (query = [[sort, 'ASC']])
-            : (query = [[sort.replace('-', ''), 'DESC']]);
+          sort.charAt(0) !== "-"
+            ? (query = [[sort, "ASC"]])
+            : (query = [[sort.replace("-", ""), "DESC"]]);
 
           option.order = query;
         }
@@ -52,11 +54,11 @@ class PubController {
         //----------PAGINATION
         let limit, offset;
         if (page) {
-          if (page.size !== '' && typeof page !== undefined) {
+          if (page.size !== "" && typeof page !== undefined) {
             limit = page.size;
             option.limit = limit;
           }
-          if (page.number !== '' && typeof page !== undefined) {
+          if (page.number !== "" && typeof page !== undefined) {
             offset = page.number * limit - limit;
             option.offset = offset;
           }
@@ -88,17 +90,18 @@ class PubController {
     try {
       const { id } = req.params;
       const findProd = await Product.findByPk(id);
-
-      if (!findProd) throw { name: 'Not Found' };
+      // console.log(findProd, "hit");
+      if (!findProd) throw { name: "Not Found" };
 
       const { data } = await axios({
-        method: 'get',
+        method: "get",
         url: `https://api.happi.dev/v1/qrcode?data=https://bluesville-customer-app.web.app/details/${id}`,
-
         headers: {
-          'x-happi-key': process.env.HAPPI_DEV,
+          "x-happi-key": process.env.HAPPI_DEV,
         },
       });
+
+      //console.log(data, "cek data");
 
       findProd.dataValues.qrcode = data.qrcode;
       res.status(200).json(findProd);
@@ -116,7 +119,7 @@ class PubController {
         username,
         email,
         password,
-        role: 'Customer',
+        role: "Customer",
         phoneNumber,
         address,
       });
@@ -135,10 +138,10 @@ class PubController {
       const { email, password } = req.body;
       const findUser = await User.findOne({ where: { email } });
 
-      if (!findUser) throw { name: 'Unauthorized' };
+      if (!findUser) throw { name: "Unauthorized" };
 
       const isValid = passCompare(password, findUser.password);
-      if (!isValid) throw { name: 'Unauthorized' };
+      if (!isValid) throw { name: "Unauthorized" };
 
       const payload = {
         id: findUser.id,
@@ -164,7 +167,7 @@ class PubController {
       const { id: UserId } = req.user;
 
       const response = await Favorite.findAll({
-        include: ['Product'],
+        include: ["Product"],
         where: { UserId },
       });
 
@@ -180,13 +183,13 @@ class PubController {
       const { id: ProductId } = req.params;
 
       const findProduct = await Product.findByPk(ProductId);
-      if (!findProduct) throw { name: 'Not Found' };
+      if (!findProduct) throw { name: "Not Found" };
 
       const findFav = await Favorite.findOne({
         where: { ProductId, UserId },
       });
 
-      if (findFav) throw { name: 'Not Modified' };
+      if (findFav) throw { name: "Not Modified" };
 
       await Favorite.create({
         UserId,
@@ -194,7 +197,7 @@ class PubController {
       });
 
       res.status(201).json({
-        message: 'Favorite created!',
+        message: "Favorite created!",
       });
     } catch (err) {
       next(err);
@@ -223,10 +226,10 @@ class PubController {
         defaults: {
           username: name,
           email,
-          password: 'apanya?',
-          role: 'Customer',
+          password: "apanya?",
+          role: "Customer",
           phoneNumber: 7813218,
-          address: 'Jalan Terong Belanda',
+          address: "Jalan Terong Belanda",
         },
       });
 

@@ -13,6 +13,7 @@ const Toast = Swal.mixin({
     toast.addEventListener('mouseleave', Swal.resumeTimer);
   },
 });
+
 export const useUserStore = defineStore('user', {
   state: () => ({
     isLoggedIn: false,
@@ -45,6 +46,7 @@ export const useUserStore = defineStore('user', {
         });
       }
     },
+
     async loginHandler(cred) {
       try {
         const { data } = await axios({

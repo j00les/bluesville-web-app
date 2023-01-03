@@ -24,6 +24,7 @@ export default {
   },
 };
 </script>
+
 <template>
   <section class="grid grid-cols-2 px-4 py-6 mx-auto">
     <div class="mx-auto">

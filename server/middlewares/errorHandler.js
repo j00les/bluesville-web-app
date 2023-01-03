@@ -1,42 +1,43 @@
 const errorHandler = (err, req, res, next) => {
+  console.log(err);
   let code = 500;
-  let msg = 'Internal Server Error';
+  let msg = "Internal Server Error";
 
   if (
-    err.name === 'SequelizeValidationError' ||
-    err.name === 'SequelizeUniqueConstraintError'
+    err.name === "SequelizeValidationError" ||
+    err.name === "SequelizeUniqueConstraintError"
   ) {
     code = 400;
-    msg = err.errors.map(el => {
+    msg = err.errors.map((el) => {
       return el.message;
     });
-  } else if (err.name === 'Empty Fields') {
+  } else if (err.name === "Empty Fields") {
     code = 400;
     msg = err.message;
-  } else if (err.name === 'Empty Email') {
+  } else if (err.name === "Empty Email") {
     code = 400;
-    msg = 'Email is required';
-  } else if (err.name === 'Empty Password') {
+    msg = "Email is required";
+  } else if (err.name === "Empty Password") {
     code = 400;
-    msg = 'Password is required';
-  } else if (err.name === 'Unauthorized') {
+    msg = "Password is required";
+  } else if (err.name === "Unauthorized") {
     code = 401;
-    msg = 'Invalid email/password';
-  } else if (err.name === 'JsonWebTokenError') {
+    msg = "Invalid email/password";
+  } else if (err.name === "JsonWebTokenError") {
     code = 401;
-    msg = 'Invalid token';
-  } else if (err.name === 'Not Found') {
+    msg = "Invalid token";
+  } else if (err.name === "Not Found") {
     code = 404;
-    msg = 'Product not found';
-  } else if (err.name === 'Category Not Found') {
+    msg = "Product not found";
+  } else if (err.name === "Category Not Found") {
     code = 404;
-    msg = 'Category not found';
-  } else if (err.name === 'Forbidden') {
+    msg = "Category not found";
+  } else if (err.name === "Forbidden") {
     code = 403;
-    msg = 'You are not authorized';
-  } else if (err.name === 'Not Modied') {
+    msg = "You are not authorized";
+  } else if (err.name === "Not Modied") {
     code = 304;
-    msg = 'You already have the item';
+    msg = "You already have the item";
   }
 
   res.status(code).json({

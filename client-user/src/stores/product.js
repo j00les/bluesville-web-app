@@ -38,7 +38,6 @@ export const useProductStore = defineStore('product', {
         });
 
         this.products = data;
-
         this.router.push(query ? query : '');
       } catch (err) {
         console.log(err);
@@ -96,6 +95,8 @@ export const useProductStore = defineStore('product', {
           method: 'get',
           url: `/pub/products/${id}`,
         });
+
+        console.log(data, 'prod data');
 
         this.productById = data;
       } catch (err) {
