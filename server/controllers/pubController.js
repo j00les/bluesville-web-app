@@ -96,12 +96,13 @@ class PubController {
       const { data } = await axios({
         method: "get",
         url: `https://api.happi.dev/v1/qrcode?data=https://bluesville-customer-app.web.app/details/${id}`,
+        //url: `https://api.happi.dev/v1/qrcode?data=http://localhost:8080/details/${id}`,
         headers: {
           "x-happi-key": process.env.HAPPI_DEV,
         },
       });
 
-      //console.log(data, "cek data");
+      //console.log(process.env.HAPPI_DEV, "cek data");
 
       findProd.dataValues.qrcode = data.qrcode;
       res.status(200).json(findProd);
